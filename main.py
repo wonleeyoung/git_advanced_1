@@ -1,8 +1,12 @@
 from typing import List
 # Skeleton code for even_list
 def even_list(int_list: List[int]) -> List[int]:
-    pass
-
+    newlist = []
+    for i in int_list:
+        if i%2 == 0:
+            newlist.append(i)
+    return newlist
+    
 
 def sum_of_squares_of_even(even_int_list : List[int]) -> int:
     pass
